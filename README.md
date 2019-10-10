@@ -1,0 +1,1 @@
+docker run -p 7555:8080 -p 7500:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik:v1.7.13 --api
